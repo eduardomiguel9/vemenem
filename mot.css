@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+
+/*-----------------------------------------------------------------------------*/
+body{
+  font-family: arial;
+background-color:#2F4F4F;
+background-clip: content-box;
+  color: rgba(0,0,0,1);
+}
+/*-----------------------------------------------------------------------------*/
+a{
+  color: #606060;
+  text-decoration: none;/*tirar o sublinhado do link*/
+}
+/*------------------------------------------------------------------*/
+a:hover{
+  text-decoration: underline;/*quando passar o mouse fica sublinhado*/
+}
+/*-----------------------------------------------------------------------------*/
+div#interface {
+  width: 1100px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 20px 10px ;
+}
+/*-----------------------------------------------------------------------------*/
+
+header#cabecalho{
+  border-bottom: 2px #606060 solid;
+  height: 70px;
+
+}
+header#cabecalho h2{
+  font-family: arial, sans-serif;
+  font-size: 20pt;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-align: center;
+}
+header#cabecalho img#slogan{
+  position: absolute;
+  width: 50px;
+  height: 100px;
+}
+/*-----------------------------------------------------------------------------*/
+nav#menu{
+  display: block;
+/*  word-spacing: 6px;da espaço entre as palavras*/
+}
+section#corpo{
+  display: block;
+  width: 1100px;
+}
+
+nav#menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  position: relative;
+  top: -62px;
+  left:284px;
+}
+nav#menu li{
+  display: inline-block;
+  background-color: #dddd;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 2s;
+  /*utilizar o expressprefixr */
+}
+nav#menu li:hover{
+  background-color: #606060
+
+}
+nav#menu h1{
+  display: none;
+}
+nav#menu a{
+  color: #000000;
+  text-decoration:none;
+
+}
+nav#menu a:hover{
+  color: #ffffff;
+  text-decoration:underline;
+}
+/*-------------------------------------------------------------------------------*/
+section#corpo{
+  display: block;
+  width: 1100px;
+}
+section#corpo img#icone{
+  position: relative;
+  top: 20px;
+  width: 500px;
+  height: 300px
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+section#corpo h2#f1{
+  position: relative;
+  font-size: 15pt;
+  top: -310px;
+  background-color: #cecece;
+  font-weight: bold;
+  color:black;
+  padding: 30px 1px 30px 1px;
+  margin:10px 60px 10px 580px;
+  text-align: center;
+}
+section#corpo h2#f2{
+  position: relative;
+  font-size: 15pt;
+  top: -300px;
+  background-color: #cecece;
+  font-weight: bold;
+  color:black;
+  padding: 30px 1px 30px 1px;
+  margin:10px 60px 10px 580px;
+  text-align: center;
+}
+section#corpo h2#f3{
+  position: relative;
+  font-size: 15pt;
+  top: -290px;
+  background-color: #cecece;
+  font-weight: bold;
+  color:black;
+  padding: 30px 1px 30px 1px;
+  margin:10px 60px 10px 580px;
+  text-align: center;
+}
+section#corpo img#you{
+  position: absolute;
+  width: 90px;
+  height: 70px;
+  margin: -240px 10px 10px 10px;
+}
+/*section#corpo img#est{
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  margin: -210px 10px 10px 860px;
+}*/
+section#corpo img#pos{
+  position: absolute;
+  width: 900px;;
+  height: 150px;
+  margin: -176px 10px 10px 130px;
+}
+/*------------------------------------------------------------------------------*/
+
+article#noticia-principal h3{
+  font-size: 13pt;
+  color: black;
+  margin-top: -215px;
+  margin-left: 110px;
+}
+/*-----------------------------------------------------------------------------*/
+
+footer#rodape{
+  clear: both;
+  border-top: 2px solid #606060;
+}
+footer#rodape h1{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  color: black;
+  text-align: center;
+}

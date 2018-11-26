@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+
+/*-----------------------------------------------------------------------------*/
+body{
+  font-family: arial;
+background-color:#2F4F4F;
+background-clip: content-box;
+  color: rgba(0,0,0,1);
+}
+/*------------------------------------------------------------------*/
+a{
+  color: #606060;
+  text-decoration: none;/*tirar o sublinhado do link*/
+}
+/*------------------------------------------------------------------*/
+a:hover{
+  text-decoration: underline;/*quando passar o mouse fica sublinhado*/
+}
+
+/*-----------------------------------------------------------------------------*/
+div#interface {
+  width: 1100px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 1);
+  padding: 10px 10px 20px 10px
+  ;
+}
+/*-----------------------------------------------------------------------------*/
+
+header#cabecalho{
+
+
+}
+
+
+/*-----------------------------------------------------------------------------*/
+section#corpo{
+  display: block;
+  width: 1100px;
+
+}
+section#corpo img#icone{
+  position: relative;
+  top: 10px;
+  left:250px;
+}
+section#corpo img#fac{
+  width: 45px;
+  height: 45px;
+  position:relative;
+  top: 315px;
+  left:375px;
+}
+section#corpo img#goo{
+  width: 50px;
+  height: 60px;
+  position: relative;
+  top: 324px;
+  left:380px;
+}
+section#corpo img#ima{
+  width: 300px;
+  height: 180px;
+  position: relative;
+  top:250px;
+  left:84px;
+}
+article#noticia-principal h2{
+  font-size: 15pt;
+  color: black;
+  margin-left: 300px;
+  margin-top: 40px;
+  word-spacing: 6px;/*da espaço entre as palavras*/
+}
+article#noticia-principal h1{
+  font-size: 20pt;
+  color: black;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+
+article#noticia-principal p{
+  position: absolute;
+  font-size: 10pt;
+  color: black;
+  margin-top: -25px;
+  margin-left: 660px;
+
+}
+article#noticia-principal input#nome{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+article#noticia-principal input#password{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.bot{
+  position: relative;
+  top: 0px;
+  left: 490px;
+  font-size: 1.3em;
+  background: #2F4F4F !important;
+  border: 0;
+  border-radius: 6px;
+  color: #FFF;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.bot:hover{
+  background: #4c7f7f !important;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+.botcadastrar{
+  position: relative;
+  top: 10px;
+  left: 445px;
+  font-size: 1.2em;
+  background: #2F4F4F !important;
+  border: 0;
+  border-radius: 6px;
+
+  color: #FFF;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botcadastrar:hover{
+  background: #4c7f7f !important;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+
+}
+.login{
+  position: relative;
+  left: 20px;
+  top: -5px;
+}
+.senha{
+  position: relative;
+  left: 20px;
+  top:  -15px;
+
+}
+.texto{
+  font-size: 12pt;
+  margin-left: 625px;
+  margin-top: -170px;
+}
+.login {
+    margin-bottom: 1em;
+}
+
+.login label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+.senha {
+    margin-bottom: 1em;
+}
+
+.senha label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+fieldset.login {
+    float:  left;
+    margin-right: 1em;
+}
+fieldset .senha {
+    float:  left;
+    margin-right: 1em;
+}
+.login input[type="login"],
+.senha input[type="sennha"],
+.login select,
+.senha select,
+.login textarea,
+.senha textarea {
+      padding: 0.2em;
+      border: 1px solid #CCC;
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+      display: block;
+  }
+  .login select option {
+      padding-right: 1em;
+  }
+  .senha select option {
+      padding-right: 1em;
+  }
+  .login input:focus, .login select:focus, .login textarea:focus {
+      background: #FFC;
+  }
+  .senha input:focus, .senha select:focus, .senha textarea:focus {
+      background: #FFC;
+  }
+
+/*-----------------------------------------------------------------------------*/
+footer#rodape{
+  clear: both;
+  border-top: 2px solid #606060;
+}
+footer#rodape h1{
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+  color: black;
+  text-align: center;
+}

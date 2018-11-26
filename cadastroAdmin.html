@@ -1,0 +1,92 @@
+<!DOCTYPE html>.
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>cadastro</title>
+      <link rel="stylesheet" type="text/css" href="cadastroAdmin.css"/>
+  </head>
+  <body >
+
+<div class="interface">
+
+  <header id="cabecalho">
+    <div class=logo"">
+      <img  src="imagens/logooficial.png" width="140" height="62"/>
+          </div>
+
+    <hgroup>
+
+    </hgroup>
+
+    <nav id="menu">
+
+    <h1>Menu Principal</h1>
+
+    <ul type="disc">
+
+      <li><a href="paginaPerfilAdmin.html">Página principal</a></li>
+     <li><a href="provaAnteAdmin.html">Provas anteriores</a></li>
+     <li><a href="realizarSimAdmin.html">Realizar Simulados</a></li>
+     <li><a href="areaMotAdmin.html">Área de motivação</a></li>
+     <li><a href="cadastroAdmin.html">Realizar cadastro</a></li>
+
+    </ul>
+    </nav>
+
+  </header>
+
+
+    <h1>Cadastro de usuário</h1>
+<br><br>
+
+  <form action="cadastroAdmin.php" method="post">
+  <fieldset>
+
+  	<fieldset class="grupo">
+  		<div class="campo">
+  			<label for="nome">Nome</label>
+  			<input type="text" id="nome" name="nome" style="width: 20em" value="" />
+  		</div>
+  		<div class="campo">
+  			<label for="snome">Sobrenome</label>
+  			<input type="text" id="sobrenome" name="sobrenome" style="width: 20em" value="" />
+  		</div>
+  	</fieldset>
+
+  	<div class="campo">
+  		<label for="email">E-mail</label>
+  		<input type="text" id="email" name="email" style="width: 41em" value="" />
+  	</div>
+
+    <div class="campo">
+      <label for="login">Login</label>
+      <input type="text" id="login" name="login" style="width: 20em" value="" />
+    </div>
+
+  	<div class="campo">
+  		<label for="senha">Senha</label>
+  		<input type="password" id="senha" name="senha" style="width: 20em"  value="" />
+  	</div>
+
+  	<fieldset class="grupo">
+
+  		<div class="campo">
+  			<label for="usuario">Tipo de usuário</label>
+  			<select name="tipoUsuario" id="tipoUsuario">
+  				<option value="">--</option>
+          	<option value="usuario">Usuário</option>
+  				<option value="admin">Admin</option>
+  			</select>
+  		</div>
+  	</fieldset>
+
+
+
+  	<button class="botao submit" type="submit" name="submit">Enviar</button>
+
+  </fieldset>
+  </form>
+  </div>
+
+  </body>
+</html>
