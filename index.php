@@ -1,4 +1,6 @@
 <?php
+header("Location:index.html");
+
 echo "Cadastrado realizado ";
 $Nome = $_POST['nome'];/* quando possui $ é uma variável*//*POST é o método do formulário*/
 $Sobrenome = $_POST['sobrenome'];
